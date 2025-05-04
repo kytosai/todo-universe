@@ -14,4 +14,5 @@ export default defineNuxtConfig({
     '@my-packages': fileURLToPath(new URL('..', import.meta.url)), // packages folder
   },
   srcDir: 'src/',
+  modules: ['@nuxt/eslint'],
 })

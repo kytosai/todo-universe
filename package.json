@@ -9,5 +9,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.9.0"
+  "packageManager": "pnpm@10.9.0",
+  "dependencies": {
+    "@stylistic/eslint-plugin": "catalog:",
+    "eslint": "catalog:"
+  },
+  "pnpm": {
+    "neverBuiltDependencies": []
+  }
 }

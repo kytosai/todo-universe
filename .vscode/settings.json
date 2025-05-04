@@ -1,0 +1,13 @@
+{
+  // Seting for work with multi project in monorepo
+  // ref: https://www.codalas.com/en/2311/configuring-vscode-for-subfolder-projects-to-ensure-correct-eslint-operation
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    },
+    {
+      "pattern": "packages/*",
+      "changeProcessCWD": true
+    }
+  ]
+}
